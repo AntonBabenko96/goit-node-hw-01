@@ -1,0 +1,29 @@
+{
+  "name": "hw-01",
+  "version": "1.0.0",
+  "description": "https://monosnap.com/file/wcloqME1gfjvinS3WgM9yHIbQ50ElS\r https://monosnap.com/file/IDrR7Wd5diTCQZkyFg9TTW68IxgBNZ\r https://monosnap.com/file/XiyW4GrXfhsQgN6fgLYqV5yXWIoA42\r https://monosnap.com/file/YzVJju5PTw9N0snrQT3tvwZbreoHa0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "yargs": "^17.7.1"
+  },
+  "dependencies": {
+    "short-uuid": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonBabenko96/node-hw-01.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonBabenko96/node-hw-01/issues"
+  },
+  "homepage": "https://github.com/AntonBabenko96/node-hw-01#readme"
+}
