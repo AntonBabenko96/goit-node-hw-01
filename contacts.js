@@ -41,16 +41,12 @@ async function removeContact(contactId) {
   }
 }
 
-async function addContact(name, nEmail, phone) {
+async function addContact(name, email, phone) {
   try {
     const id = uuid.generate();
     const data = await listContacts();
 
-    if (data.find(({ email }) => email === nEmail)) {
-      return `Sorry, contact with email ${nEmail} has already added!`;
-    }
-
-    const newContact = { id, name, nEmail, phone };
+    const newContact = { id, name, email, phone };
 
     data.push(newContact);
 
